@@ -29,7 +29,7 @@ public class ActivateFountain {
         		dp[i] = Math.min(dp[i],dp[pos]+1);
         }
            
-         
+       return 0;  
 	}
 
 }
