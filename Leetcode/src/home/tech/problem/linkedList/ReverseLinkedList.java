@@ -1,4 +1,7 @@
-package home.tech.problem;
+package home.tech.problem.linkedList;
+
+import home.tech.problem.ListNode;
+import home.tech.problem.MyLinkedNode;
 
 public class ReverseLinkedList {
 

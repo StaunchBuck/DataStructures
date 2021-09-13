@@ -14,7 +14,7 @@ public class MyLinkedNode {
 		obj.get();
 	}
 
-	protected ListNode get() {
+	public ListNode get() {
 		return head;
 		
 	}
@@ -41,7 +41,7 @@ public class MyLinkedNode {
 		System.out.println("");
 	}
 	
-	protected void printListNodeExternal(ListNode head) {
+	public void printListNodeExternal(ListNode head) {
 		ListNode temp = head;
 		System.out.print("[ ");
 		while(temp != null) {

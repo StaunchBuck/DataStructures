@@ -23,5 +23,9 @@ public class CoinChange {
 	      }
 	      return sums[n];
 	}
+	
+	public void finalize() {
+		
+	}
 
 }
