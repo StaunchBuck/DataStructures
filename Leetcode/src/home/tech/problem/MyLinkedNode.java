@@ -30,7 +30,7 @@ public class MyLinkedNode {
 		return node;		
 	}
 	
-	protected void printListNode() {
+	public void printListNode() {
 		ListNode temp = head;
 		System.out.print("[ ");
 		while(temp != null) {
